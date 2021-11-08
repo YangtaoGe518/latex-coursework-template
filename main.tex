@@ -1,0 +1,86 @@
+\documentclass[a4 paper]{article}
+% Set target color model to RGB
+\usepackage[inner=2.0cm,outer=2.0cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{setspace}
+\usepackage[rgb]{xcolor}
+\usepackage{verbatim}
+\usepackage{subcaption}
+\usepackage{amsgen,amsmath,amstext,amsbsy,amsopn,tikz,amssymb}
+\usepackage{fancyhdr}
+\usepackage[colorlinks=true, urlcolor=blue,  linkcolor=blue, citecolor=blue]{hyperref}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{rotating}
+\usepackage[tableaux]{prooftrees}
+\usepackage{tcolorbox}
+\usepackage{listings}
+
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\renewcommand*\linenumberstyle[1]{(#1)}
+\newcommand*\lif{\mathbin{\to}}
+\newcommand*\lforall{\mathbin{\forall}}
+\newcommand*\lexists{\mathbin{\exists}}
+\newcommand*\comma{,}
+
+\hypersetup{%
+pdfauthor={Yangtao Ge},%
+pdftitle={Answer},%
+pdfkeywords={Tikz,latex,bootstrap,uncertaintes},%
+pdfcreator={PDFLaTeX},%
+pdfproducer={PDFLaTeX},%
+}
+\usepackage{booktabs}
+\input{macros.tex}
+
+
+\begin{document}
+\homework{Coursework:
+Security Principles}{Due: 12/11/2021}{17129747}{}{}{}
+
+\problem{1: Thread Model}{4 + 3 + 3 = 10}
+
+\subproblem{a}
+
+\subproblem{b}
+
+\subproblem{c}
+
+\problem{2:Access Control Design}{8 + 2 = 10}
+
+\subproblem{a}
+
+\subproblem{b}
+\nocite{*}
+
+\newpage
+\bibliographystyle{ieeetr}  
+\bibliography{references}
+\end{document} 
